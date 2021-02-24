@@ -12,7 +12,7 @@ application: api-explorer {
     raw_api_request: yes
     allow_forms: yes
     allow_same_origin: yes
-    core_api_methods: []
+    core_api_methods: ["versions", "api_spec"]
     external_api_urls: []
     oauth2_urls: []
   }
