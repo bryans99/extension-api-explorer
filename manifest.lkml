@@ -10,8 +10,8 @@ application: api-explorer {
     navigation: no
     new_window: no
     raw_api_request: yes
-    allow_forms: yes
-    allow_same_origin: yes
+    use_form_submit: yes
+    use_embeds: no
     core_api_methods: ["versions", "api_spec"]
     external_api_urls: []
     oauth2_urls: []
